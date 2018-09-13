@@ -1,0 +1,30 @@
+
+input[type="button"] {
+	height: 75px;
+	width: 75px;
+	font-size: 28px;
+}
+
+section#gameResult {
+	padding: 15px 0;
+}
+
+div.game-wrapper {
+	width: 300px;
+	margin: 0 auto;
+
+}
+
+span#resultText {
+	font-size: 32px;
+	color: green;
+}
+
+button#playAgain{
+	display: block;
+	border: none;
+	padding: 10px;
+	background: green;
+	color: white;
+	font-size: 18px;
+}
