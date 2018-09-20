@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+}
+ul{
+    padding: 0;
+}
+body > h1 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    background: black;
+    color: lightsteelblue;
+}
+section#user img#userAvatar {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid lightsteelblue;
+    height: auto;
+}
+section#user div.user-info {
+    display:inline-block;
+    vertical-align: top;
+    margin: 10px 20px;
+}
+section#user h2#userName {
+    color: #5a5a5a;
+}
+section#user {
+    display: none;
+    padding: 15px;
+}
+section#user div.user-details{
+	margin-bottom: 15px;
+}
+
+#search {
+	float:right;
+	margin-right: 15px;
+}
+#search > #searchtext{
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 3px;
+	border: 2px solid lightsteelblue;
+	width: 225px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}

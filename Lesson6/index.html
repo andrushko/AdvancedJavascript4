@@ -3,8 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+	<h1> Github Client Application </h1>
+
+	<section id="search">
+		<input id="searchtext" type="search" placeholder="Type login and press 'enter'..." 
+			   value="octocat"/>
+	</section>
 	
+	<section id="user">
+		<div class="user-details">
+			<img id="userAvatar" src="" />
+			<div class="user-info">
+				<h2 id="userName"></h2>
+				<p id="otherUserInfo"></p>
+			</div>
+		<div>
+			<table>
+				<thead>
+					<tr><th>Name</th><th>Url</th></tr>
+				</thead>
+				<tbody id="tableBody">
+					
+				</tbody>
+			</table>
+	</section>
+
+	<script type="text/javascript" src="js/settings.js"></script>
+	<script type="text/javascript" src="js/github.client.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
