@@ -48,6 +48,7 @@ http.createServer(function (request, response) {
         }
         else {
             response.writeHead(200, { 'Content-Type': contentType });
+            //, 'Set-Cookie': 'name=server_set_cookie;HttpOnly;'
             response.end(content, 'utf-8');
         }
     });
